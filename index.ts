@@ -17,6 +17,7 @@ console.log("----------este punto enciende la heladera----------")
 smartHeladera1.encender(smartHeladera1.getEstaEncendido())
 
 //conectar internet
+console.log("----------este punto conecta a Internet----------")
 smartHeladera1.conectarInternet();
 
 //cambiar temperatura
