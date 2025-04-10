@@ -43,12 +43,13 @@ export class Electrodomestico {
             console.log("se apagó la heladera.")
         }
     }
+    
     public mostrarInfo(smartHeladera:SmartHeladera) {
         console.log(`Marca: ${smartHeladera.getMarca()}`)
         console.log(`Modelo: ${smartHeladera.getModelo()}`)
-        console.log(`Estado de la Heladera ${this.estaEncendido ? "Encendida" : "Apagada"}`);
+        console.log(`Estado de la Heladera: ${this.estaEncendido ? "Encendida" : "Apagada"}`);
         console.log(`Temperatura: ${smartHeladera.getTemperatura()}`);
-        console.log(`Modulo Wifi: ${smartHeladera.getTieneModuloWifi()}`);
-        console.log(`Temperatura: ${smartHeladera.getTemperatura()}`);
+        //console.log(`Modulo Wifi: ${smartHeladera.getTieneModuloWifi()}`);
      }
+     
 }
