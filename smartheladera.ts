@@ -22,4 +22,7 @@ export class SmartHeladera extends Heladera {
     public conectarInternet() {
     console.log(`se encuentra conectado a internet por su placa Wifi a ${this.tieneModuloWifi.getVelocidadMbps()} Mbps y ${this.tieneModuloWifi.getFrecuenciaGHz()} Ghz`);
      };
+    detelleWifi():string{
+        return `se encuentra conectado a internet por su placa Wifi a ${this.tieneModuloWifi.getVelocidadMbps()} Mbps y ${this.tieneModuloWifi.getFrecuenciaGHz()} Ghz`
+    }
 }

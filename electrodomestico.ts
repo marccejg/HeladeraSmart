@@ -49,7 +49,7 @@ export class Electrodomestico {
         console.log(`Modelo: ${smartHeladera.getModelo()}`)
         console.log(`Estado de la Heladera: ${this.estaEncendido ? "Encendida" : "Apagada"}`);
         console.log(`Temperatura: ${smartHeladera.getTemperatura()}`);
-        console.log(`Modulo Wifi: ${smartHeladera.getTieneModuloWifi()}`);
+        console.log(`Modulo Wifi: ${smartHeladera.detelleWifi()}`);
      }
      
 }
